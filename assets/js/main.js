@@ -1,10 +1,3 @@
-/**
-* Template Name: Sailor
-* Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 (function () {
     "use strict";
@@ -63,12 +56,14 @@
         spaceBetween: 30,
         loop: true,
         autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
+            delay: 2500,
+            disableOnInteraction: false,
         },
         pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+            el: ".swiper-pagination",
+            clickable: true,
         },
-      });
+    });
+
+    new WOW().init();
 })()
