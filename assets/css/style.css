@@ -147,8 +147,8 @@ section {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 100px 50px;
-    padding: 100px 50px;
+    gap: 100px 10px;
+    padding: 50px 10px;
 }
 
 .custom-card {
